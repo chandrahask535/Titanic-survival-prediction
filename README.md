@@ -1,4 +1,4 @@
-# chandrahask535-ZIC.labs
+# ZIC.labs-TASK1
 ZIC labs Internship TASK 1
 # README: Titanic Survival Prediction
 
