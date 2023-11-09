@@ -50,4 +50,4 @@ The following important libraries were used for this project:
 1. The model was used to predict the survival status of passengers in the test set.
 2. The predicted results were printed using `log.predict(X_test)`.
 3. The actual target values in the test set were printed using `Y_test`.
-4. A sample prediction was made using `log.predict([[2, 1]])` with Pclass=2 and Sex=Male (1).
+4. A sample prediction was made using `model.predict([[1,2,4,6,5,7,3]])` with respective columns.
