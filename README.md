@@ -30,7 +30,7 @@ The following important libraries were used for this project:
 
 ## Data Exploration and Preprocessing
 
-1. The dataset was loaded using pandas as a DataFrame, and its shape and a glimpse of the first 10 rows were displayed using `df.shape` and `df.head(10)`.
+1. The dataset was loaded using pandas as a DataFrame, and its shape and a glimpse of the first 5 rows were displayed using `df.shape` and `df.head(5)`.
 2. Descriptive statistics for the numerical columns were displayed using `df.describe()` to get an overview of the data, including missing values.
 3. The count of passengers who survived and those who did not was visualized using `sns.countplot(x=df['Survived'])`.
 4. The count of survivals was visualized with respect to the Pclass using `sns.countplot(x=df['Survived'], hue=df['Pclass'])`.
